@@ -11,7 +11,6 @@ var reload = browserSync.reload;
 var inject = require('gulp-inject');
 var angularFilesort = require('gulp-angular-filesort');
 var queue = require('streamqueue');
-var bowerFiles = require('main-bower-files');
 
 var paths = {
   sass: ['./scss/**/*.scss'],
